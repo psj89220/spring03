@@ -6,14 +6,18 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@ToString
+@NoArgsConstructor
+@AllArgsConstructor
 @Getter
 @Setter
-@AllArgsConstructor
-@NoArgsConstructor
+@ToString
 public class Dept {
 	int deptno;
 	String dname;
 	String loc;
-		
+	
+	public void print() {
+		toString();
+	}
+
 }
