@@ -8,6 +8,7 @@ public class DeptExample {
 		dept.setDname("개발부");
 		dept.setLoc("서울");
 		
+		System.out.println(dept);
 		System.out.println(dept.getDeptno() + ", " + dept.getDname() + ", " + dept.getLoc());
 		
 	}

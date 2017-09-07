@@ -1,4 +1,4 @@
-package com.examle
+package com.example
 
 import org.junit.Test
 import org.apache.commons.logging.Log
